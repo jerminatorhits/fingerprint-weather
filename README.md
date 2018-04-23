@@ -2,32 +2,16 @@
 
 A simple Ruby on Rails application that enables users to search locations and view weather details made available by [MetaWeather](https://www.metaweather.com).
 
-#### Live Demo
-<https://limitless-oasis-59888.herokuapp.com/>
-
-### Before You Start
-
-- Clone the repository locally (please do **not fork** on Github)
-
-### Prerequisites
-
-- Ruby: A Ruby version manager is highly recommended for installing Ruby and required Gems. You can find more information on available Ruby managers here: <https://www.ruby-lang.org/en/documentation/installation/#managers>
-
-### Objectives
+### Objectives for this project
 
 - Implement caching where location query responses are stored in a *SQL* database to speed-up subsequent searches (note: cache invalidation is not a requirement).
 
 - Add an appropriate weather icon to location weather result (`show` template). See MetaWeather API documentation for details: <https://www.metaweather.com/api/>
-    
-	**Hint**: Match `weather_state_abbr` with appropriate weather icon made available a: `https://www.metaweather.com/static/img/weather/png/64/?.png`.
 
-### Optionals
+### To run this project locally
 
-- Replace Rails view templates with React or Vue.
-
-- Implement a simple interface that allows an “admin” to review, add, or remove locations from the cache (authentication is not required).
-
-### Submitting the Completed Project
-
-- Create and push your code to a Github repository
-- Send link to your repository by replying to the project invite email.
+1. Clone this repository by running `git clone https://github.com/jerminatorhits/fingerprint-weather.git` in your terminal
+2. Ensure your system is using both the Ruby (2.5.0) and Rails (5.2.0) versions of this project. If not, go ahead and update them accordingly.
+3. `cd` into fingerprint-weather directory
+4. Run `bundle install` to install gem dependencies
+5. Run `rails s` and open your favorite browser to localhost:3000
