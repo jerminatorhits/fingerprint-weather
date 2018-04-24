@@ -11,7 +11,7 @@ A simple Ruby on Rails application that enables users to search locations and vi
 ## Additional Feature
 
 - Successfully added React to the view layer using react-rails gem 
-- In `app/views/locations`, I left both the index.html.slim and show.html.slim files in the folder to show that I completed the primary objectives for this project. In order to use the slim view, simply delete the index.html.erb and show.html.erb files in the folder. 
+- In `app/views/locations`, I left both the index.html.slim and show.html.slim files in the folder to show that I completed the primary objectives for this project. In order to use the slim view, simply delete the `index.html.erb` and `show.html.erb` files in the folder. 
 
 ### To run this project locally
 
@@ -21,4 +21,4 @@ A simple Ruby on Rails application that enables users to search locations and vi
 4. Run `bundle install` to install gem dependencies
 5. Run `yarn install` to enable ajax to communicate with Rails Controller
 5. Run `rails db:migrate` to create the query cache database if necessary
-5. Run `rails s` and open your favorite browser to localhost:3000
+5. Run `rails s` and open your favorite browser to `localhost:3000`
