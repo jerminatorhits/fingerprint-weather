@@ -20,5 +20,5 @@ A simple Ruby on Rails application that enables users to search locations and vi
 3. `cd` into fingerprint-weather directory
 4. Run `bundle install` to install gem dependencies
 5. Run `yarn install` to enable ajax to communicate with Rails Controller
-5. Run `rails db:migrate` to create the query cache database
+5. Run `rails db:migrate` to create the query cache database if necessary
 5. Run `rails s` and open your favorite browser to localhost:3000
